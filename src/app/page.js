@@ -6,6 +6,7 @@ import {
 } from '../helpers/file-helpers';
 
 const DATABASE_PATH = '/src/database.json';
+export const dynamic = 'force-dynamic';
 
 function Home() {
   let { hits } = JSON.parse(
